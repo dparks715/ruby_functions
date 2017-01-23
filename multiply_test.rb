@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative 'multiply'
 
-class TestMMFunctions < Minitest::Test
+class TestMultiplyFunction < Minitest::Test
 
 	def test_one_is_one
 		assert_equal(1,1)
