@@ -15,4 +15,8 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(5, addition(2,3))
 	end
 
+	def test_negtwo_plus_five_three
+		assert_equal(3, addition(-2,5))
+	end
+
 end
