@@ -15,5 +15,10 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(-4, subtract(1,5))
 	end
 
+	def test_neg5_minus_neg3
+		assert_equal(-2, subtract(-5,-3))
+	end
+
+
 end
 
