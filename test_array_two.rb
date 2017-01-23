@@ -37,4 +37,19 @@ class TestArrayTwo < Minitest::Test
 		assert_equal('minds', results[-1])
 	end
 
+	def test_94_is_94
+		results = create_array
+		assert_equal(94, results[93])
+	end
+
+	def test_57_is_mined
+		results = create_array
+		assert_equal('mined', results[56])
+	end
+
+	def test_58_is_58
+		results = create_array
+		assert_equal(58, results[57])
+	end
+
 end
