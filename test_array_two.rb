@@ -12,8 +12,19 @@ class TestArrayTwo < Minitest::Test
 		assert_equal(100, results.length)
 	end
 
+	def test_one_returns_one
+		results = create_array
+		assert_equal(1, results[1-1])
+	end
+
 	def test_div_by_3_is_mined
 		results = create_array
-		assert_equal('mined', results[2])
+		assert_equal('mined', results[3-1])
 	end
+
+	def test_div_by_five_is_minds
+		results = create_array
+		assert_equal('minds', results[5-1])
+	end
+
 end

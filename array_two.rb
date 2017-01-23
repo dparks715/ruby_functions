@@ -4,9 +4,11 @@ def create_array()
 	mm_array.each_with_index do |value, index|
 		if value % 3 == 0
 			mm_array[index] = 'mined'
+		elsif value % 5 == 0
+			mm_array[index] = 'minds'
+		else value
+
 		end
-
-
 
 	end
 	
