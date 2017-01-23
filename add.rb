@@ -1,3 +1,7 @@
-def addition(num1,num2)
-	num1 + num2
+def addition(*num)
+	counter = 0
+	num.each do |numbers|
+		counter = counter + numbers
+	end
+	counter
 end

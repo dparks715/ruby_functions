@@ -20,7 +20,11 @@ class TestAdditionFunction < Minitest::Test
 	end
 
 	def test_onetwenty_plus_onethou
-		assert_equal(1120, addition(120, 1000))
+		assert_equal(1120, addition(120,1000))
+	end
+
+	def test_twenty_plus_five_five
+		assert_equal(30, addition(20,5,5))
 	end
 
 end
