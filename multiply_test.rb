@@ -10,5 +10,9 @@ class TestMultiplyFunction < Minitest::Test
 	def test_two_times_two
 		assert_equal(4, multiply(2,2))
 	end
+
+	def test_five_times_negten
+		assert_equal(-50, multiply(5,-10))
+	end
 	
 end
